@@ -13,40 +13,46 @@ body {
   background-color: #191919;
   line-height: 1;
   font-weight: 400;
-  padding: 20px;
+  padding: 2rem;
   color: #f7ece1;
 }
 
 header {
-  display: grid;
-  grid-template-rows: auto auto;
+  display: flex;
   justify-content: center;
+  height: 4rem;
+  margin-bottom: 5rem;
 }
 
 .header-links {
+  position: fixed;
   padding: 10px 20px;
   background-color: #f7ece1;
   border-radius: 100px;
-  display: flex;
-  gap: 20px;
-  font-size: 2rem;
   box-shadow: 0 0 10px 0;
 }
 
-.header-links a:link,
-.header-links a:visited {
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav-list a:link,
+.main-nav-list a:visited {
+  font-size: 1.8rem;
   text-decoration: none;
   font-weight: 500;
   color: #191919;
+  transition: all 0.3s;
 }
 
-.header-links a:hover,
-.header-links a:active {
+.main-nav-list a:hover,
+.main-nav-list a:active {
   color: #ffc72d;
 }
 
 main {
-  height: 85vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -98,6 +104,7 @@ section {
   font-size: 1.6rem;
   font-weight: 700;
   border-radius: 0.5rem;
+  transition: all 0.3s;
 }
 
 .resume-btn:hover {
