@@ -24,7 +24,7 @@ body {
 }
 
 .header-links {
-  background-color: #f7ece1;
+  background-color: #fff;
   border-radius: 10rem;
   box-shadow: 0 0 1rem 0;
   padding: 1rem 2rem;
@@ -106,4 +106,62 @@ body {
 .resume-btn:hover {
   background-color: #f7e5b4;
   cursor: pointer;
+}
+
+.features {
+  display: grid;
+  justify-content: center;
+  row-gap: 3.2rem;
+  font-size: 1.8rem;
+}
+
+.features h2 {
+  text-align: center;
+  color: #e4c46a;
+  font-size: 3.6rem;
+  letter-spacing: 1;
+}
+
+.features-container {
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.feature-box {
+  text-align: center;
+  border: 2px solid #e4c46a;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+.feature-box h3 {
+  font-size: 2.4rem;
+  padding: 2rem;
+}
+
+.feature-btn {
+  margin-top: 2rem;
+  padding: 1rem 1.5rem;
+  background-color: #e4c46a;
+  display: inline-block;
+  /* border-radius: 1rem; */
+  transition: all 0.3s;
+}
+
+.feature-btn:hover {
+  background-color: #f7e5b4;
+}
+
+.feature-btn a:link,
+.feature-btn a:visited {
+  text-decoration: none;
+  color: #191919;
+  font-weight: 600;
+}
+
+.feature-btn a:hover,
+.feature-btn a:active {
+  color: black;
 }
