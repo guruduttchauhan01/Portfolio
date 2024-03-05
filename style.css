@@ -17,19 +17,17 @@ body {
   color: #f7ece1;
 }
 
-header {
+.header {
   display: flex;
   justify-content: center;
   height: 4rem;
-  margin-bottom: 5rem;
 }
 
 .header-links {
-  position: fixed;
-  padding: 10px 20px;
   background-color: #f7ece1;
-  border-radius: 100px;
-  box-shadow: 0 0 10px 0;
+  border-radius: 10rem;
+  box-shadow: 0 0 1rem 0;
+  padding: 1rem 2rem;
 }
 
 .main-nav-list {
@@ -52,36 +50,34 @@ header {
   color: #ffc72d;
 }
 
-main {
+.profile {
+  border-radius: 2rem;
+  /* justify-self: center; */
+  width: 85%;
+}
+
+.main-section {
+  padding: 4.8rem 3.2rem 9.6rem 3.2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
-}
-
-.profile {
-  border-radius: 2rem;
-  margin: auto;
-  /* justify-self: center; */
-  max-width: 30rem;
-}
-
-section {
-  /* justify-self: center; */
-  display: grid;
-  grid-template-rows: repeat(4, auto);
-  align-items: center;
   gap: 1rem;
-  padding: 10px;
-  max-width: 70rem;
   font-size: 1.8rem;
   line-height: 1.5;
+}
+
+.content-container {
+  max-width: 70rem;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  gap: 1rem;
 }
 
 .content h1 {
   font-size: 4.4rem;
   letter-spacing: 0.05px;
   line-height: 1;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
 .content span {
