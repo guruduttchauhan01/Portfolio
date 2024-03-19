@@ -1,8 +1,5 @@
 /* HEADER Section */
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 4rem;
 }
 
@@ -13,29 +10,25 @@
   padding: 0 1.5rem;
 }
 
-.main-nav-list {
-  list-style: none;
-  display: flex;
+.header-nav-list {
   gap: 1rem;
   padding: 1rem 0;
 }
 
-.main-nav-list a:link,
-.main-nav-list a:visited {
+.header-nav-list a:link,
+.header-nav-list a:visited {
   font-size: 1.8rem;
-  text-decoration: none;
   font-weight: 500;
   color: #191919;
   transition: all 0.3s;
-  /* ANY-TIME REMOVE */
   padding: 0.2rem 1rem;
   border-radius: 2rem;
 }
 
-.main-nav-list a:hover,
-.main-nav-list a:active {
-  background-color: #4b4b4b;
-  color: #e4c46a;
+.header-nav-list a:hover,
+.header-nav-list a:active {
+  background-color: #e4c46a;
+  color: #191919;
 }
 
 .profile {
@@ -73,7 +66,7 @@
 }
 
 .social-logo {
-  display: flex;
+  justify-content: start;
   gap: 2rem;
 }
 
@@ -145,7 +138,6 @@ h2 {
 
 .feature-btn a:link,
 .feature-btn a:visited {
-  text-decoration: none;
   color: #191919;
   font-weight: 600;
 }
@@ -161,6 +153,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .skills-container {
@@ -171,4 +164,13 @@ h2 {
 .skills-logo {
   aspect-ratio: 3/2;
   max-width: 10rem;
+}
+
+.footer {
+  border-bottom: 1rem solid #e4c46a;
+}
+
+.trademark {
+  font-size: 1.2rem;
+  justify-content: flex-end;
 }

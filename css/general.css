@@ -62,6 +62,8 @@ Medium: 11px
   margin: 0;
   box-sizing: border-box;
   font-family: "inter", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
@@ -72,8 +74,14 @@ body {
   background-color: #191919;
   line-height: 1;
   font-weight: 400;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
   color: #f7ece1;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
