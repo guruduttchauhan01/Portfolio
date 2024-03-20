@@ -85,3 +85,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.secondary-heading {
+  text-align: center;
+  color: #e4c46a;
+  font-size: 3.6rem;
+  letter-spacing: 1;
+}
