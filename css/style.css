@@ -37,7 +37,7 @@
   width: 85%;
 }
 
-.main-section {
+.intro {
   padding: 4.8rem 3.2rem 9.6rem 3.2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -47,7 +47,7 @@
   line-height: 1.5;
 }
 
-.content-container {
+.intro-content-container {
   max-width: 70rem;
   display: grid;
   grid-template-rows: repeat(4, auto);
