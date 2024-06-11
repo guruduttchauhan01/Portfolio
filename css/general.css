@@ -92,3 +92,44 @@ body {
   font-size: 3.6rem;
   letter-spacing: 1;
 }
+
+.header {
+  height: 4rem;
+}
+
+.header-links {
+  background-color: #fff;
+  border-radius: 10rem;
+  box-shadow: 0 0 1rem 0;
+  padding: 0 1.5rem;
+}
+
+.header-nav-list {
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.header-nav-list a:link,
+.header-nav-list a:visited {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #191919;
+  transition: all 0.3s;
+  padding: 0.2rem 1rem;
+  border-radius: 2rem;
+}
+
+.header-nav-list a:hover,
+.header-nav-list a:active {
+  background-color: #e4c46a;
+  color: #191919;
+}
+
+.footer {
+  border-bottom: 1rem solid #e4c46a;
+}
+
+.trademark {
+  font-size: 1.2rem;
+  justify-content: flex-end;
+}
