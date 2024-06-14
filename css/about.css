@@ -5,14 +5,6 @@
   padding: 0 1.5rem;
 }
 
-.oswald-header {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 1.8rem;
-  font-weight: 800;
-  font-style: normal;
-}
-
 .profile {
   border-radius: 2rem;
   /* justify-self: center; */

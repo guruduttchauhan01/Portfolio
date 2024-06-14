@@ -133,3 +133,20 @@ body {
   font-size: 1.2rem;
   justify-content: flex-end;
 }
+
+.oswald-header {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10rem;
+  background: #e4c46a;
+}
