@@ -5,7 +5,7 @@
 }
 
 .intro {
-  padding: 4.8rem 3.2rem 9.6rem 3.2rem;
+  padding: 4.8rem 3.2rem 5.6rem 3.2rem;
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
@@ -57,11 +57,11 @@
 }
 
 .featured {
-  padding-bottom: 9.6rem;
   display: grid;
   justify-content: center;
   row-gap: 3.2rem;
   font-size: 1.8rem;
+  margin-bottom: 5rem;
 }
 
 .featured-container {
@@ -117,6 +117,7 @@
   grid-template-rows: repeat(2, auto);
   align-items: center;
   justify-content: center;
+  padding: 0 4rem;
   gap: 2rem;
   margin-bottom: 2rem;
 }
@@ -124,9 +125,11 @@
 .skills-container {
   background-color: #4b4b4b;
   padding: 4.8rem 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 .skills-logo {
   aspect-ratio: 3/2;
-  max-width: 10rem;
+  width: 100%;
 }

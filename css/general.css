@@ -76,6 +76,7 @@ body {
   font-weight: 400;
   padding: 2rem 2rem 0 2rem;
   color: #f7ece1;
+  position: relative;
 }
 
 /* GENERAL REUSABLE COMPONENTS */
@@ -144,6 +145,7 @@ body {
 
 ::-webkit-scrollbar {
   width: 1rem;
+  height: 1rem;
 }
 
 ::-webkit-scrollbar-thumb {
